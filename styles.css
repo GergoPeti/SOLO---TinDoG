@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(16, 53, 54);
+}
+
+/* 🦆🦆***************************
+*********** APP-CONTAINER **********
+****************************🦆🦆 */
+
+.app-container {
+  margin: 3rem auto;
+
+  background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+  width: 55rem;
+}
+
+/* 🦆🦆***************************
+*********** HEADER **********
+****************************🦆🦆 */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image {
+  width: 100%;
+}
