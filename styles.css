@@ -84,6 +84,9 @@ body {
   align-items: center;
   gap: 2.5rem;
 
+  /* height: 9.19rem;
+  padding: 2.5rem 0; */
+
   height: 9.19rem;
   padding: 2.5rem 0;
 }
