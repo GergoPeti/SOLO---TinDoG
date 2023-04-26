@@ -24,6 +24,8 @@ body {
   width: 55rem;
   margin: 3rem auto;
   background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+
+  padding-bottom: 3rem;
 }
 
 /* 🦆🦆***************************
@@ -61,6 +63,8 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 0 1.6rem 1.2rem;
+
+  position: relative;
 }
 
 .dog-name {
@@ -74,6 +78,23 @@ body {
   color: #b7b7b7;
 }
 
+.badge {
+  position: absolute;
+  width: 23.4rem;
+
+  top: 54px;
+  left: 20px;
+  transform: rotate(-30deg);
+}
+
+.badge-like {
+  display: none;
+}
+
+.badge-nope {
+  display: none;
+}
+
 /* 🦆🦆***************************
 *********** CTA BUTTONS **********
 ****************************🦆🦆 */
@@ -84,6 +105,31 @@ body {
   align-items: center;
   gap: 2.5rem;
 
+  margin-top: 2.5rem;
+
   height: 9.19rem;
   padding: 2.5rem 0;
+}
+
+.CTA-btns-white-bg {
+  width: 9.2rem;
+  height: 9.2rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 10px 20px #d3d1d1;
+}
+
+.heart-icon-bg:hover {
+  background: #dbfff4;
+  box-shadow: 0px 10px 20px #ccf1e6;
+}
+
+.cross-icon-bg:hover {
+  background: #ffe7ef;
+  box-shadow: 0px 10px 20px #edd9df;
 }
