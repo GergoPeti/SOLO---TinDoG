@@ -1,3 +1,5 @@
+'use strict';
+
 const dogs = [
   {
     name: 'Rex',
@@ -25,4 +27,4 @@ const dogs = [
   },
 ];
 
-// Remember to export the data!
+export default dogs;

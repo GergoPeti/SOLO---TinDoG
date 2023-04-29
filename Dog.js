@@ -1,1 +1,7 @@
-// Create the Dog class here
+'use strict';
+
+function Dog(data) {
+  Object.assign(this, data);
+}
+
+export default Dog;
